@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS for Calendar */
+    .calendar {
+      font-family: Arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .calendar td, .calendar th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+    .calendar th {
+      background-color: #f2f2f2;
+    }
+    .calendar tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    .calendar td:hover {
+      background-color: #e6e6e6;
+      cursor: pointer;
+    }
+    .calendar .today {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<table class="calendar">
+  <tr>
+    <th colspan="7">October 2023</th>
+  </tr>
+  <tr>
+    <th>Sun</th>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fri</th>
+    <th>Sat</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+  </tr>
+  <!-- Continue for the rest of the month -->
+</table>
+
+</body>
+</html>
